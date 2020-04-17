@@ -1,1 +1,45 @@
-.icon-bar {    width: 100%; /* Full-width */    background-color: darkred;    overflow: auto; /* Overflow due to float */}.icon-bar a {    float: left;    text-align: center; /* Center-align text */    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */    padding: 12px 0; /* Some top and bottom padding */    transition: all 0.3s ease; /* Add transition for hover effects */    color: white; /* White text color */    font-size: 1.5rem;}.icon-bar a:hover {    background-color: black; /* Add a hover color */}/*.container-fluid {*//*    min-height: calc(100vh - 548px);*//*}*/footer {    color: darkred;    font-size: .8rem;    background-color: aliceblue;    width: 100%;    padding: 1rem;}html, body {    height: 100%;}body {    display: flex;    flex-direction: column;}.container-fluid {    flex: 1 0 auto;}.footer {    flex-shrink: 0;}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: darkred;
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 1.5rem;
+}
+
+.icon-bar a:hover {
+    background-color: black; /* Add a hover color */
+}
+
+/*.container-fluid {*/
+/*    min-height: calc(100vh - 548px);*/
+/*}*/
+
+footer {
+    color: darkred;
+    font-size: .8rem;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 1rem;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+}
